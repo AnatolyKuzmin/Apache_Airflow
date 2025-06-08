@@ -8,4 +8,7 @@ docker --version  # Должно быть не ниже 20.10.0
 wsl -l -v         # Убедитесь, что WSL 2 активен
 ```
 
-[docker-compose.yml](https://github.com/AnatolyKuzmin/Apache_Airflow/tree/main)
+Создаем [docker-compose.yml](https://github.com/AnatolyKuzmin/Apache_Airflow/tree/main) в папке `C:/airflow`
+
+Запускаем контейнер `docker-compose up -d`  
+Проверяем логи `docker-compose logs -f airflow-webserver`
