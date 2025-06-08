@@ -14,3 +14,6 @@ wsl -l -v         # Убедитесь, что WSL 2 активен
 Проверяем логи `docker-compose logs -f airflow-webserver`
 
 Доступ к Airflow `http://localhost:8080`. airflow
+
+### Первый DAG
+Создаём файл dags/01_first_dag.py
