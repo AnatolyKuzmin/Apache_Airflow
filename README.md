@@ -12,3 +12,5 @@ wsl -l -v         # Убедитесь, что WSL 2 активен
 
 Запускаем контейнер `docker-compose up -d`  
 Проверяем логи `docker-compose logs -f airflow-webserver`
+
+Доступ к Airflow `http://localhost:8080`. airflow
